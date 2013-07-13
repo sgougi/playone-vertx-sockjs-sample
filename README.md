@@ -2,7 +2,7 @@ Requirements
 =========
 
 * Java 7
-* Play 1.2.5
+* Play Framework 1.2.5
 
 Dependencies
 =========

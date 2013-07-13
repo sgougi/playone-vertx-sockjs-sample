@@ -9,6 +9,5 @@ require:
     - io.netty -> netty-all 4.0.0.CR9
     - io.vertx -> vertx-core 2.0.0-CR3
     - io.vertx -> vertx-platform 2.0.0-CR3
-    - io.vertx -> vertx-testsuite 2.0.0-CR3
 
             
