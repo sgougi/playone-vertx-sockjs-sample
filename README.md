@@ -22,7 +22,7 @@ After booting, access to http://localhost:9000 by your browser.
 
 And then click [Send SockJS data] to appear a message box that will say "Hello, World!".
 
-System scketch
+System sketch
 ==============
 ![Alt](/docs/sketch.png)
 
