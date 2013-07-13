@@ -1,0 +1,12 @@
+.history
+.target
+.cache
+/.idea
+/.idea_modules
+/.classpath
+/.project
+/.settings
+/modules
+/mods
+/lib
+/tmp
