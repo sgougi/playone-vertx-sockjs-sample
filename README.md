@@ -1,6 +1,3 @@
-A SockJS sample application with Vert.x on PlayOne
-============
-
 Requirements
 =========
 
