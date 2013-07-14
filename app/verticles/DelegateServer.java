@@ -8,11 +8,6 @@ import org.vertx.java.core.http.HttpClientRequest;
 import org.vertx.java.core.http.HttpClientResponse;
 import org.vertx.java.core.http.HttpServer;
 import org.vertx.java.core.http.HttpServerRequest;
-import org.vertx.java.core.http.HttpServerResponse;
-import org.vertx.java.platform.Verticle;
-
-import org.vertx.java.core.Handler;
-import org.vertx.java.core.http.HttpServer;
 import org.vertx.java.core.json.JsonObject;
 import org.vertx.java.core.sockjs.SockJSServer;
 import org.vertx.java.core.sockjs.SockJSSocket;
@@ -36,7 +31,7 @@ public class DelegateServer extends Verticle {
 				Logger.debug("Proxying request: %s",  req.uri());
 				final HttpClientRequest cReq = getRequest(req, httpClient);
 				cReq.headers().set(req.headers());
-				cReq.headers().set("playonevertx-delegate", "true");
+				cReq.headers().set("play-vertx-delegate", "true");
 				cReq.setChunked(true);
 				req.dataHandler(new Handler<Buffer>() {
 					public void handle(Buffer data) {

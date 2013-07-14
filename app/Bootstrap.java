@@ -1,14 +1,8 @@
-import java.io.File;
-import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.Collection;
-
-import javax.inject.Inject;
 
 import org.vertx.java.platform.PlatformLocator;
 import org.vertx.java.platform.PlatformManager;
 
-import play.Logger;
 import play.Play;
 import play.jobs.Job;
 import play.jobs.OnApplicationStart;
