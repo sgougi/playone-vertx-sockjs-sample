@@ -6,8 +6,8 @@ require:
     - com.fasterxml.jackson.core -> jackson-annotations 2.2.2
     - com.fasterxml.jackson.core -> jackson-core 2.2.2
     - com.fasterxml.jackson.core -> jackson-databind 2.2.2
-    - io.netty -> netty-all 4.0.0.CR9
-    - io.vertx -> vertx-core 2.0.0-CR3
-    - io.vertx -> vertx-platform 2.0.0-CR3
+    - io.netty -> netty-all 4.0.2.Final
+    - io.vertx -> vertx-core 2.0.0-final
+    - io.vertx -> vertx-platform 2.0.0-final
 
             
